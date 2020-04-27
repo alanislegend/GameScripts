@@ -1,0 +1,12 @@
+**FPS CONTROLS INSTRUCTIONS**
+
+FpsInput.cs -
+used to allow the player to move around (Left, right, forward, backwards). Left and right are straffing motions, like most common FPS games.
+This script gets attached to the actual player object that you want to move/take damage/shoot ect.
+
+MouseLook.cs -
+Used to allow the player to move the aiming of the player around in all directions. Just a common FPS style action. 
+This script gets attached to the CAMERA object AND the PLAYER object. 
+You must make the movement on the PLAYER object horizontal only and the movement on the CAMERA object VERTICAL only.
+This is so that the gravity effect in the FpsInput.cs script that pushes down on the player to keep them from floating 
+does not cause them to get pushed opposite of the direction they are looking.
