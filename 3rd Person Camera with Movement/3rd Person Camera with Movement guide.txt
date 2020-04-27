@@ -1,0 +1,9 @@
+**USAGE GUIDE**
+
+FollowPlayer.cs -
+Attach this script to the CAMERA object (which is attached to the player object).
+This script will make the camera's distance offset from the player object by a set amount.
+
+PlayerMovement.cs - 
+This movement script uses froward and sideways force on the player object to move it. 
+(Initially used in a Super Monkey Ball style game)
