@@ -1,0 +1,5 @@
+**PLAYER COLLISION USAGE**
+
+PlayerCollision.cs -
+Attach to player object. If they hit an "obstacle", they're movent stops.
+(this was used in a Super Monkey Ball stylee game, so the goal was to make the player stop when they hit an object and they lose)
